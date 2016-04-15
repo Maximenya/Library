@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="freemarker">
+    <CLASSES>
+      <root url="file://$MAVEN_REPOSITORY$/org/freemarker" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$MAVEN_REPOSITORY$/org/freemarker" recursive="false" />
+  </library>
+</component>
