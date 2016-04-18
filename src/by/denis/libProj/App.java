@@ -1,10 +1,12 @@
-package main.java.libProj;
+package by.denis.libproj;
+
 import static spark.Spark.*;
 
-public class Main {
+public class App {
 
     public static void main(String[] args) throws Exception {
-        System.setProperty("file.encoding","UTF-8");
+        System.out.println("start");
+       System.setProperty("file.encoding","UTF-8");
 
         port(8080);
         System.out.println("lol");

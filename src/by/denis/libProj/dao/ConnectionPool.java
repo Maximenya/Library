@@ -1,6 +1,6 @@
-package main.java.libProj.dao;
+package by.denis.libproj.dao;
 
-import main.java.libProj.Main;
+import by.denis.libproj.App;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  */
 public final class ConnectionPool {
 
-    private static Logger log = Logger.getLogger(Main.class.getName());
+    private static Logger log = Logger.getLogger(App.class.getName());
 
     /**
      * Free connection.
